@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+:root {
+  --primary-color: #f1356d;
+  --secondary-color: #f2f2f2;
+  --primary-text-color: #333;
+  --secondary-text-color: #f1356d;
+}

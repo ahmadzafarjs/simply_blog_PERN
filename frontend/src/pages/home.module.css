@@ -1,0 +1,19 @@
+.hero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero h1 {
+    margin-bottom: 20px;
+    color: var(--secondary-text-color);
+}
+.hero p {
+    color: var(--primary-text-color);
+    line-height: 1.8;
+}

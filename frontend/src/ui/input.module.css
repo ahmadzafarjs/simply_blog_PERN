@@ -1,0 +1,26 @@
+input {
+    caret-color: var(--primary-color);
+    caret-shape: block;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 1px solid #999;
+    outline: none;
+    transition: 0.3s;
+    &:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 8px 0 var(--primary-color);
+    }
+}
+
+.input_fields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+input:disabled {
+    margin-top: 10px;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--primary-color);
+}
